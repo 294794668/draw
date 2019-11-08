@@ -1,14 +1,20 @@
-<mxfile host="www.draw.io" modified="2019-11-08T12:18:30.578Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="ebZX7A6-Z34TFVnBfcBB" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-08T12:32:25.861Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="h9CDD7_mXBfe5dJsl13J" version="12.2.3" type="github" pages="1">
   <diagram id="7cnH-NnOfo04mb4Lqo_o" name="第 1 页">
     <mxGraphModel dx="932" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-3" value="保理池入池泳道图" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="50" width="970" height="1080" as="geometry"/>
+          <mxGeometry x="70" y="50" width="970" height="2010" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-22" target="wWLqrKQLSOyKj97jagOg-24">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-4" value="保理池" style="swimlane;html=1;startSize=20;" parent="x9DU3GrfOK3XYPjq0_lk-3" vertex="1">
-          <mxGeometry x="20" width="580" height="1080" as="geometry"/>
+          <mxGeometry x="20" width="580" height="2010" as="geometry"/>
         </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="x9DU3GrfOK3XYPjq0_lk-9" target="x9DU3GrfOK3XYPjq0_lk-10" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -31,14 +37,20 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-4" value="关闭" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-1" target="wWLqrKQLSOyKj97jagOg-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-6" value="开启" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-1" target="wWLqrKQLSOyKj97jagOg-5">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-1" target="wWLqrKQLSOyKj97jagOg-31">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-1" value="判断入池状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
           <mxGeometry x="240" y="770" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-20" value="判断入池状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
-          <mxGeometry x="240" y="810" width="100" height="100" as="geometry"/>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-56" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-31" target="wWLqrKQLSOyKj97jagOg-55">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-31" value="是否存在每日额度信息表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="240" y="950" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-55" value="查询出保理池所有的票据分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="420" y="950" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-1">
           <mxGeometry relative="1" as="geometry"/>
@@ -51,18 +63,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-10" value="借款人当日押款额是否处理完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-10" value="接口成功/借款人当日押款额是否处理完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
           <mxGeometry x="240" y="590" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-5" value="判断入池状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
-          <mxGeometry x="420" y="770" width="100" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-8" value="处理下一借款人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-3" target="wWLqrKQLSOyKj97jagOg-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-8" value="处理下一保理池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-3" target="wWLqrKQLSOyKj97jagOg-1">
+          <mxGeometry x="-0.8462" relative="1" as="geometry">
             <mxPoint x="110" y="665" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="110" y="730"/>
               <mxPoint x="290" y="730"/>
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-61" value="存在在贷金额" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-3" target="wWLqrKQLSOyKj97jagOg-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="1000"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,16 +89,36 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-24" value="调用票据查询是否处理完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
           <mxGeometry x="240" y="450" width="100" height="100" as="geometry"/>
         </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-58" value="失败-处理下一借款人" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-53" target="wWLqrKQLSOyKj97jagOg-1">
+          <mxGeometry x="-0.802" y="-9" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1169"/>
+              <mxPoint x="50" y="730"/>
+              <mxPoint x="290" y="730"/>
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-53" value="接收当日押款额累计、插入每日额度信息表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="240" y="1119" width="100" height="100" as="geometry"/>
+        </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-5" value="票据池" style="swimlane;html=1;startSize=20;" parent="x9DU3GrfOK3XYPjq0_lk-3" vertex="1">
-          <mxGeometry x="600" width="370" height="1080" as="geometry"/>
+          <mxGeometry x="600" width="370" height="2010" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-22" value="判断借款人当日票据池是否更新完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-5">
           <mxGeometry x="135" y="450" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-22">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-34" value="返回票据分组当日的押款额" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-5">
+          <mxGeometry x="157" y="950" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-22" target="wWLqrKQLSOyKj97jagOg-24">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-34" target="wWLqrKQLSOyKj97jagOg-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1169"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-3" source="wWLqrKQLSOyKj97jagOg-55" target="wWLqrKQLSOyKj97jagOg-34">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
