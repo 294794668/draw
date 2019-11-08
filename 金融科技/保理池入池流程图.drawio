@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T12:56:55.425Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="PbV3aKSW6vxyE54xH89b" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-08T12:58:43.368Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="SBSIlZVIr3mlBvvZSBVA" version="12.2.3" type="github" pages="1">
   <diagram id="7cnH-NnOfo04mb4Lqo_o" name="第 1 页">
     <mxGraphModel dx="932" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,8 +180,22 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-85" value="机票起飞日失败、不录入该分组票据信息。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;direction=south;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
           <mxGeometry x="400" y="1820" width="100" height="100" as="geometry"/>
         </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-87" target="wWLqrKQLSOyKj97jagOg-99">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-87" value="遍历票据分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;direction=south;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
           <mxGeometry x="220" y="1820" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-101" value="不满足" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-99" target="wWLqrKQLSOyKj97jagOg-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="2050"/>
+              <mxPoint x="150" y="1870"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-99" value="应收账款到期日是否满足保理池要求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="220" y="2000" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-81" target="wWLqrKQLSOyKj97jagOg-85">
           <mxGeometry relative="1" as="geometry">
