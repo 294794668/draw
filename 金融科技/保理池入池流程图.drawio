@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-10T09:25:51.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="pUBn6ZwF3Sdx1I3xEjxq" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-10T09:39:15.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="wLHpoAxmaPqYOebpComl" version="12.2.3" type="github" pages="1">
   <diagram id="7cnH-NnOfo04mb4Lqo_o" name="第 1 页">
     <mxGraphModel dx="1006" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,14 +16,23 @@
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-9" value="定时启动任务&lt;br&gt;传入处理日期" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
           <mxGeometry x="240" y="40" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="x9DU3GrfOK3XYPjq0_lk-10" target="wWLqrKQLSOyKj97jagOg-15" edge="1">
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="x9DU3GrfOK3XYPjq0_lk-10" target="Mn_wr89FNonFCgA3KKPW-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="x9DU3GrfOK3XYPjq0_lk-10" target="Mn_wr89FNonFCgA3KKPW-20">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-10" value="查询处理日期前所有的有效保理池，按顺序遍历处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="190" width="100" height="100" as="geometry"/>
+          <mxGeometry x="240" y="170" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-15" value="&lt;div&gt;处理下一个保理池&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="520" width="100" height="100" as="geometry"/>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-20" value="遍历完成结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;strokeWidth=2;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="420" y="170" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="Mn_wr89FNonFCgA3KKPW-9" target="Mn_wr89FNonFCgA3KKPW-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-9" value="处理下一借款人" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="240" y="310" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-4" value="关闭" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-1" target="wWLqrKQLSOyKj97jagOg-3" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -32,7 +41,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-1" value="判断入池状态" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="970" width="100" height="100" as="geometry"/>
+          <mxGeometry x="240" y="940" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-56" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-31" target="wWLqrKQLSOyKj97jagOg-55" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -55,26 +64,26 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-55" value="查询出保理池所有的票据分组" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
           <mxGeometry x="399.5" y="1330" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-1" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-29" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-15" edge="1">
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="Mn_wr89FNonFCgA3KKPW-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="169.5" y="840"/>
-              <mxPoint x="169.5" y="570"/>
+              <mxPoint x="140" y="630"/>
+              <mxPoint x="140" y="360"/>
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-10" value="接口成功/借款人当日押款额是否处理完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="650" width="100" height="100" as="geometry"/>
+          <mxGeometry x="240" y="580" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-8" value="处理下一保理池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-3" target="wWLqrKQLSOyKj97jagOg-1" edge="1">
-          <mxGeometry x="-0.8462" relative="1" as="geometry">
-            <mxPoint x="109.5" y="865" as="targetPoint"/>
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint x="109.5" y="995" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="499.5" y="930"/>
-              <mxPoint x="289.5" y="930"/>
+              <mxPoint x="500" y="920"/>
+              <mxPoint x="290" y="920"/>
             </Array>
             <mxPoint as="offset"/>
           </mxGeometry>
@@ -88,7 +97,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-3" value="判断是否有在贷金额" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="449.5" y="970" width="100" height="100" as="geometry"/>
+          <mxGeometry x="449.5" y="940" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-53" target="wWLqrKQLSOyKj97jagOg-90" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -106,7 +115,7 @@
           <mxGeometry x="580" width="370" height="3330" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-22" value="判断借款人当日票据池是否更新完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
-          <mxGeometry x="134.5" y="650" width="100" height="100" as="geometry"/>
+          <mxGeometry x="150" y="450" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-34" value="返回票据分组当日的押款额" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
           <mxGeometry x="136.5" y="1330" width="100" height="100" as="geometry"/>
@@ -120,9 +129,6 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-117" value="更新票据分组为已使用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
           <mxGeometry x="156.5" y="2949" width="100" height="100" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-22" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-34" target="wWLqrKQLSOyKj97jagOg-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -133,20 +139,18 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-55" target="wWLqrKQLSOyKj97jagOg-34" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-69" target="wWLqrKQLSOyKj97jagOg-1" edge="1">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-69" target="wWLqrKQLSOyKj97jagOg-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="910" y="1720"/>
-              <mxPoint x="910" y="930"/>
-              <mxPoint x="290" y="930"/>
+              <mxPoint x="900" y="1720"/>
+              <mxPoint x="900" y="790"/>
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-65" value="接口调用失败，处理下一保理池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-34" target="wWLqrKQLSOyKj97jagOg-1" edge="1">
+        <mxCell id="wWLqrKQLSOyKj97jagOg-65" value="接口调用失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-34" target="wWLqrKQLSOyKj97jagOg-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="769.5" y="930"/>
-              <mxPoint x="289.5" y="930"/>
+              <mxPoint x="770" y="790"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -291,8 +295,27 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="139.5" y="930" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="99.5" y="2195"/>
-              <mxPoint x="99.5" y="570"/>
+              <mxPoint x="40" y="2195"/>
+              <mxPoint x="40" y="790"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="Mn_wr89FNonFCgA3KKPW-4" target="wWLqrKQLSOyKj97jagOg-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-4" value="判断借款人当日票据池是否更新完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="x9DU3GrfOK3XYPjq0_lk-4">
+          <mxGeometry x="240" y="450" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-15" target="wWLqrKQLSOyKj97jagOg-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="wWLqrKQLSOyKj97jagOg-15" value="&lt;div&gt;处理借款人的下一个保理池&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;strokeWidth=2;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
+          <mxGeometry x="239.5" y="740" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="Mn_wr89FNonFCgA3KKPW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-22" target="wWLqrKQLSOyKj97jagOg-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="630"/>
             </Array>
           </mxGeometry>
         </mxCell>
