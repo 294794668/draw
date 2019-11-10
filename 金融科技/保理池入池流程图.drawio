@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-10T10:25:34.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="-GHqzNjx3n1PgquGpqzB" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-10T10:26:56.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="qeJbGSNIY_WWpYv_b6hc" version="12.2.3" type="github" pages="1">
   <diagram id="7cnH-NnOfo04mb4Lqo_o" name="第 1 页">
     <mxGraphModel dx="2260" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,11 +123,12 @@
           <mxGeometry x="430" y="1593" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="Mn_wr89FNonFCgA3KKPW-48" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="Mn_wr89FNonFCgA3KKPW-45" target="wWLqrKQLSOyKj97jagOg-76">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.3939" y="-20" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="1880"/>
               <mxPoint x="150" y="1880"/>
             </Array>
+            <mxPoint x="20" y="-20" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Mn_wr89FNonFCgA3KKPW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="x9DU3GrfOK3XYPjq0_lk-4" source="Mn_wr89FNonFCgA3KKPW-45" target="Mn_wr89FNonFCgA3KKPW-9">
@@ -142,7 +143,7 @@
           <mxGeometry x="100" y="1715" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-5" value="票据池" style="swimlane;html=1;startSize=20;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="710" width="320" height="3430" as="geometry"/>
+          <mxGeometry x="700" width="320" height="3430" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-22" value="判断借款人当日票据池是否更新完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
           <mxGeometry x="110" y="450" width="100" height="100" as="geometry"/>
@@ -154,7 +155,7 @@
           <mxGeometry x="110" y="1593" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-81" value="查询每张机票的起飞日" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
-          <mxGeometry x="130" y="1910" width="100" height="100" as="geometry"/>
+          <mxGeometry x="110" y="1830" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-117" value="更新票据分组为已使用" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-5" vertex="1">
           <mxGeometry x="110" y="2950" width="100" height="100" as="geometry"/>
@@ -166,7 +167,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-76" value="遍历获取票据分组的最大最小起飞日" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="100" y="1910" width="100" height="100" as="geometry"/>
+          <mxGeometry x="239.5" y="1830" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-94" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-90" target="wWLqrKQLSOyKj97jagOg-62" edge="1">
           <mxGeometry x="-0.6289" relative="1" as="geometry">
@@ -181,7 +182,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="1853" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="290" y="1960"/>
+              <mxPoint x="290" y="1890"/>
+              <mxPoint x="290" y="1890"/>
             </Array>
           </mxGeometry>
         </mxCell>
@@ -277,7 +279,7 @@
         <mxCell id="wWLqrKQLSOyKj97jagOg-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-81" target="wWLqrKQLSOyKj97jagOg-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="890" y="2070"/>
+              <mxPoint x="860" y="2070"/>
             </Array>
           </mxGeometry>
         </mxCell>
