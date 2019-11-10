@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-10T08:54:02.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="c3zDTZbKGY4dwJ1KaCSR" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-10T09:25:51.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0" etag="pUBn6ZwF3Sdx1I3xEjxq" version="12.2.3" type="github" pages="1">
   <diagram id="7cnH-NnOfo04mb4Lqo_o" name="第 1 页">
-    <mxGraphModel dx="1143" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1006" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -21,9 +21,6 @@
         </mxCell>
         <mxCell id="x9DU3GrfOK3XYPjq0_lk-10" value="查询处理日期前所有的有效保理池，按顺序遍历处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
           <mxGeometry x="239.5" y="190" width="100" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-15" target="wWLqrKQLSOyKj97jagOg-24" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-15" value="&lt;div&gt;处理下一个保理池&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
           <mxGeometry x="239.5" y="520" width="100" height="100" as="geometry"/>
@@ -70,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-10" value="接口成功/借款人当日押款额是否处理完成" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="790" width="100" height="100" as="geometry"/>
+          <mxGeometry x="239.5" y="650" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-8" value="处理下一保理池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-3" target="wWLqrKQLSOyKj97jagOg-1" edge="1">
           <mxGeometry x="-0.8462" relative="1" as="geometry">
@@ -92,9 +89,6 @@
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-3" value="判断是否有在贷金额" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
           <mxGeometry x="449.5" y="970" width="100" height="100" as="geometry"/>
-        </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-24" value="调用票据查询是否处理完成" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;" parent="x9DU3GrfOK3XYPjq0_lk-4" vertex="1">
-          <mxGeometry x="239.5" y="650" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-53" target="wWLqrKQLSOyKj97jagOg-90" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -127,9 +121,6 @@
           <mxGeometry x="156.5" y="2949" width="100" height="100" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-10" target="wWLqrKQLSOyKj97jagOg-22" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="wWLqrKQLSOyKj97jagOg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-22" target="wWLqrKQLSOyKj97jagOg-24" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="wWLqrKQLSOyKj97jagOg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="x9DU3GrfOK3XYPjq0_lk-4" source="wWLqrKQLSOyKj97jagOg-34" target="wWLqrKQLSOyKj97jagOg-53" edge="1">
