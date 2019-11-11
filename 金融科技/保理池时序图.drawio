@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T06:16:33.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="r11AntTzRfB2FTnUxbGb" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-11T06:17:41.036Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="QrhcyTlPaSLKTmUU7YNu" version="12.2.3" type="github" pages="1">
   <diagram id="tGaRmg_FqBVmIVdAfSxw" name="第 1 页">
     <mxGraphModel dx="932" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-iLioCeoj1MhZy8JHEkB-27" value="7.保理池占用票据分组" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-iLioCeoj1MhZy8JHEkB-26">
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-27" value="10.保理池占用票据分组" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="-iLioCeoj1MhZy8JHEkB-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="820" as="sourcePoint"/>
             <Array as="points">
@@ -94,7 +94,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-iLioCeoj1MhZy8JHEkB-29" value="8.返回调用结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iLioCeoj1MhZy8JHEkB-26">
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-29" value="11.返回调用结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iLioCeoj1MhZy8JHEkB-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="860" as="targetPoint"/>
             <Array as="points">
@@ -103,13 +103,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-iLioCeoj1MhZy8JHEkB-41" value="6.计算最高阈值、入池判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-41" value="6.计算最高阈值、池满判断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="510" as="sourcePoint"/>
             <mxPoint x="320" y="571" as="targetPoint"/>
             <Array as="points">
               <mxPoint x="390" y="510"/>
               <mxPoint x="390" y="571"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-42" value="9.判断是否可入池" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="690" as="sourcePoint"/>
+            <mxPoint x="320" y="751" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="390" y="690"/>
+              <mxPoint x="390" y="751"/>
             </Array>
           </mxGeometry>
         </mxCell>
