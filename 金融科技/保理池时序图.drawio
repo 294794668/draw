@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-11T06:05:30.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="JCB3ffwBIU2RsLV3MbFz" version="12.2.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-11T06:07:18.014Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:70.0) Gecko/20100101 Firefox/70.0" etag="AsU008tO-qNIZ-oRaDrX" version="12.2.3" type="github" pages="1">
   <diagram id="tGaRmg_FqBVmIVdAfSxw" name="第 1 页">
     <mxGraphModel dx="932" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="-iLioCeoj1MhZy8JHEkB-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-iLioCeoj1MhZy8JHEkB-1">
           <mxGeometry x="40" y="410" width="10" height="80" as="geometry"/>
         </mxCell>
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-iLioCeoj1MhZy8JHEkB-1">
+          <mxGeometry x="40" y="560" width="10" height="80" as="geometry"/>
+        </mxCell>
         <mxCell id="-iLioCeoj1MhZy8JHEkB-2" value="票据池" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="100" width="90" height="660" as="geometry"/>
         </mxCell>
@@ -27,6 +30,9 @@
         </mxCell>
         <mxCell id="-iLioCeoj1MhZy8JHEkB-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-iLioCeoj1MhZy8JHEkB-2">
           <mxGeometry x="40" y="410" width="10" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-iLioCeoj1MhZy8JHEkB-2">
+          <mxGeometry x="40" y="560" width="10" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="-iLioCeoj1MhZy8JHEkB-9" value="1.查询借款人当日票据完成度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iLioCeoj1MhZy8JHEkB-6" target="-iLioCeoj1MhZy8JHEkB-8">
           <mxGeometry relative="1" as="geometry">
@@ -78,6 +84,22 @@
         </mxCell>
         <mxCell id="-iLioCeoj1MhZy8JHEkB-24" value="Text" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="719" y="548" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-27" value="7.保理池占用票据分组" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iLioCeoj1MhZy8JHEkB-25" target="-iLioCeoj1MhZy8JHEkB-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="680"/>
+              <mxPoint x="490" y="680"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-iLioCeoj1MhZy8JHEkB-29" value="8.返回调用结果" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-iLioCeoj1MhZy8JHEkB-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321" y="720" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="321" y="720"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
