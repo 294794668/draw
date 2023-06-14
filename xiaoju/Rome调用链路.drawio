@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:48:17.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.3" etag="AzKQwpHlJd0fIevAcu_0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T08:01:31.520Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wFtiYcF_qKdl-8sKWnSS" version="21.3.3" type="github">
   <diagram name="第 1 页" id="GyFrjFyid_T14M0yLBR1">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEd-jsTyCcMsUaui_zoj-2" target="CEd-jsTyCcMsUaui_zoj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-2" value="feature-proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEd-jsTyCcMsUaui_zoj-3" target="CEd-jsTyCcMsUaui_zoj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-3" value="rome-portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEd-jsTyCcMsUaui_zoj-7" target="CEd-jsTyCcMsUaui_zoj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CEd-jsTyCcMsUaui_zoj-7" target="CEd-jsTyCcMsUaui_zoj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-7" value="rome-service" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-9" value="rome-gateway" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CEd-jsTyCcMsUaui_zoj-14" value="rome-queue" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
